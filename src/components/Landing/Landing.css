@@ -1,0 +1,54 @@
+.landing-container {
+    display: flex;
+    min-height: 90vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #eee2ee;
+    padding: 0 32px;
+    font-family: "Bangers", cursive;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.landing-header {
+    font-size: 92px;
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+.typewriter-container {
+    font-size: 64px;
+    letter-spacing: 2px;
+}
+
+.flash-image {
+    width: 40vw;
+}
+
+@media (max-width: 800px) {
+    .landing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flash-image {
+        width: 80vw;
+    }
+
+    .landing-header {
+        margin-top: 32px;
+        text-align: center;
+    }
+
+    .typewriter-container {
+        text-align: center;
+    }
+}
+
+
+/* sources for animation */
+/* // https://www.w3schools.com/cssref/css_units.asp */
+/* Viewport = the browser window size. If the viewport is 50cm wide, 1vw = 0.5cm. */
+/* https://michalsnik.github.io/aos/ */
+/* https://www.npmjs.com/package/typewriter-effect */
